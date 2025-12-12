@@ -1,0 +1,289 @@
+.fs-14 {
+    font-size: .875rem;
+}
+
+.fs-12 {
+    font-size: .75rem;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.h-750 {
+    height: 46.875rem;
+}
+
+.h-350 {
+    height: 19.375rem
+}
+
+.py-12 {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+.fs-18 {
+    font-size: 1.125rem;
+}
+
+.fs-20 {
+    font-size: 1.25rem;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.px-32 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.py-32 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.p-40 {
+    padding: 2.5rem;
+}
+
+.nav {
+    box-shadow: 0 1px 3px 0 #0000001a 0 1px 2px -1px #0000001a;
+    border-bottom: 1px solid #FFEDD4;
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+    background-image: linear-gradient(to right bottom, oklch(0.705 0.213 47.604) 0%, oklch(0.637 0.237 25.331) 100%);
+    margin-right: .75rem;
+}
+
+nav .profile-img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid #ffb869;
+}
+
+.nav-label {
+    display: none;
+}
+
+.nav-label:hover {
+    color: #FF6900;
+    cursor: pointer;
+}
+
+
+.navbar-collapse.show .nav-label {
+    display: inline-block;
+
+}
+
+/* ************************************************End-Nav******************************************************* */
+.dinner {
+    background-color: #FFFAEB;
+
+}
+
+.meals {
+    box-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+}
+
+.alert {
+    background-color: #FEF2F2;
+    border-left: .1875rem solid #FB2C36;
+
+}
+
+.alert span {
+    color: #9F0712;
+
+}
+
+.alert p {
+    color: #E7000B;
+
+}
+
+.Meal-img img {
+    width: 100%;
+    height: 400px;
+
+}
+
+.Meal-img .review {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 100;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+}
+
+.Meal-img .time {
+    position: absolute;
+
+    left: 52%;
+    bottom: 16px;
+    transform: translateX(-50%);
+    z-index: 100;
+    min-width: 85%;
+
+}
+
+.meal-ingredient .difficulty {
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .25rem .75rem;
+    margin-right: .75rem;
+    color: #008236;
+    background-color: #DBFCE7;
+}
+
+.meal-ingredient .category {
+    font-size: .75rem;
+    font-weight: 600;
+    padding: .25rem .75rem;
+    color: #1447e6;
+    background-color: #DBEAFE;
+}
+
+.save-share-meal {
+    margin-top: 2rem;
+}
+
+.nav.nav-tabs.mb-4 {
+    border-bottom: #E5E7EB .0625rem solid;
+}
+
+.save-share-meal div {
+    width: 3rem;
+    height: 3rem;
+    background-color: #FFEDD4;
+}
+
+.save-share-meal div:hover {
+    background-color: #FFD7A8;
+}
+
+.ingredients {
+    background-color: #FFF8EC;
+
+}
+
+.ingredients li div {
+    background-color: #FF6900;
+    margin-right: .75rem;
+    margin-top: .125rem;
+    padding: 3px .5625rem;
+}
+
+.ingredients li {
+    margin-bottom: .75rem;
+}
+
+.instructions li {
+    margin-bottom: .75rem;
+}
+
+.instructions li div {
+    background-color: #FF6900;
+    margin-right: .75rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.card-of-meal {
+    background-color: #F9FAFB;
+
+}
+
+.card-of-meal .calories-icon {
+    background-color: #FFEDD4;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-of-meal .protein-icon {
+    background-color: #DBEAFE;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-of-meal .Carbohydrates-icon {
+    background-color: #FEF9C2;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-of-meal .Fat-icon {
+    background-color: #FFE2E2;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-of-meal .Fiber-icon {
+    background-color: #DBFCE7;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.card-of-meal .Sodium-icon {
+    background-color: #FCE7F3;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.chef-tips div {
+    background-color: #FFFBEB;
+    border-left: 4px solid #FFB900;
+    border-radius: 1rem;
+
+}
+
+.other-recipe {
+    border-top: #E5E7EB .0625rem solid;
+}
+
+.button {
+    background-image: linear-gradient(to right, oklch(0.705 0.213 47.604) 0%, oklch(0.637 0.237 25.331) 100%);
+    padding: .75rem 1.5rem;
+    box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+    border-radius: 12px;
+    transition: .1s all;
+}
+
+.button:hover {
+    box-shadow: none;
+    transform: scale(105%);
+    background-image: linear-gradient(to right, oklch(0.646 0.222 41.116) 0%, oklch(0.577 0.245 27.325) 100%);
+}
+
+@media (min-width: 992px) {
+    .Meal-img img {
+        height: 100%;
+    }
+}
+
+.ingredients::-webkit-scrollbar-button {
+    height: 12px;
+    /* ارتفاع السهم */
+    background-color: #e47474;
+    /* خلفية زر السهم */
+}
+
+.ingredients::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'><polygon points='4,0 0,4 8,4' fill='%23ff7a00'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ingredients::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'><polygon points='0,0 8,0 4,4' fill='%23ff7a00'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+}
